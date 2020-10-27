@@ -1,0 +1,29 @@
+<div class="container">
+    <form [formGroup]="form" (ngSubmit)="submitUser()">
+  
+      
+  
+      <div class="form-group input-group-lg">
+        <input class="form-control" placeholder="Enter description" formControlName="description">
+      </div>
+
+      <div class="form-group input-group-lg">
+        <select class="form-control" formControlName="type">
+            <option>PNG</option>
+            <option>JPG</option>
+        </select>
+      </div>
+
+      <div class="form-group input-group-lg">
+        <select class="form-control" formControlName="size">
+            <option>5</option>
+            <option>10</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <button class="btn btn-danger btn-block btn-lg">Create Attachment</button>
+      </div>
+    </form>
+  </div>
+  

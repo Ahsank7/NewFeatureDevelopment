@@ -48,7 +48,7 @@ namespace NewFeatureDevelopmentAPI
             //services.AddAWSService<IAmazonS3>();
             services.AddAWSService<IAmazonS3>(new AWSOptions
             {
-                Credentials = new BasicAWSCredentials("AKIAJBO5HGLPLPOGQHAQ", "fouwdV5TjhqjrL4HpAi8mxSLBScEYDLLKSbMZ4s1"),
+                Credentials = new BasicAWSCredentials("AS", "sss"),
                 Region =   Amazon.RegionEndpoint.USEast2
 
             });
